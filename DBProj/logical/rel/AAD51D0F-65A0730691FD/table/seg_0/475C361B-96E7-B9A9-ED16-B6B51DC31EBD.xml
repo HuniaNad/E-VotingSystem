@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="475C361B-96E7-B9A9-ED16-B6B51DC31EBD" name="AboutUs">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>9A251296-A58D-2BDB-A235-A11E28B1B6F1</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<ordsAlias>about_us</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="abtus_ID" id="DCFF9DB2-9FD3-E713-244C-C197E2E786F4">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="app_description" id="DC4D6B32-754D-DE83-84B8-E85DE91E6851">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>20EF58B8-D670-43E2-8A45-A7B602D3A447</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="company_email" id="73768ABC-1C2A-0F34-68D4-C173AA449C84">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>015BE4F5-58D0-7468-C132-C64A817D886D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mailing_address" id="70513310-B637-2402-27E1-7FCDA791B505">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>54419B74-1A72-0646-F294-3251A886AC8B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="features" id="E57CD93E-1545-A293-84C0-6D00F22E72A3">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>EF9FF6E4-E5CC-466E-2CC2-D0AA085A3FF8</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC39BF78-03AC-7415-ABCB-F3C08ECAEECC" name="About_Us_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DCFF9DB2-9FD3-E713-244C-C197E2E786F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

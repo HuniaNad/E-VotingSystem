@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E215153-4BEA-8E2B-6E2C-1910E768906D" name="E_Category">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:39:40 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="category_ID" id="48E296BF-0F81-6BA5-736E-68F240C32223">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:00:28 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CE651C2-2D93-0402-ECAC-1387CFE948B5" name="Category PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:00:44 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48E296BF-0F81-6BA5-736E-68F240C32223</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

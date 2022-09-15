@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="addsv1" directorySegmentName="seg_0" id="FC1DDF9C-B46A-19E9-0AE2-41B566332FBD">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 05:11:00 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>293F9534-8B24-3458-98A7-514CCE5C4831</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81901C24-1E0C-9FB1-D5DC-F8635832E98F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

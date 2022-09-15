@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B624AF6-10F6-72DB-A5B8-A5713102C5AF" name="Person">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:33:19 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_ID" id="03B7D766-E22B-3503-BAD8-6B917AFAC5A9">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-27 04:36:55 UTC</createdTime>
+<generatorID>26B2394F-56C3-659A-9D58-983D62B8CB96</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnic" id="29330820-9909-E631-118A-C8C6E6382698">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:16:15 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="age" id="08CB9455-8152-6EF4-D295-919AD5450826">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:16:51 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="CB7BE97A-8133-1F3F-A34D-72BB389E05AE">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:15:13 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="270F11D6-4198-3296-6209-6C7A0B9A3212">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:15:32 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number" id="313CE3F8-D498-FC4D-9799-5F4DC24EDB46">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:17:04 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="6CB0A01F-4246-C7F6-6989-260D06A8194C">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:15:54 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="0C3D94B7-2DD6-1D52-0005-53F4BF62ABF1">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-27 13:24:14 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="0A4824E3-1FBD-2B51-7A4D-D8A2D76E0C0A">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-25 18:53:29 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2236B11-C447-50FA-4BE8-F67FC92AF048" name="User PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:16:33 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03B7D766-E22B-3503-BAD8-6B917AFAC5A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

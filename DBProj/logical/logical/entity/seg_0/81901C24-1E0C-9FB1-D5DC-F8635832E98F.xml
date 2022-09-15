@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81901C24-1E0C-9FB1-D5DC-F8635832E98F" name="Candidate">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:34:17 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6B624AF6-10F6-72DB-A5B8-A5713102C5AF</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="candidate_ID" id="FEEA37D8-D881-CC5D-225D-24511584E403">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:14:15 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position" id="176C293A-D715-FEDC-41A8-58546D333159">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-27 13:05:18 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23DB625A-79D6-B74A-45AD-B3B0D376451F" name="Candidate PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:14:30 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEEA37D8-D881-CC5D-225D-24511584E403</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

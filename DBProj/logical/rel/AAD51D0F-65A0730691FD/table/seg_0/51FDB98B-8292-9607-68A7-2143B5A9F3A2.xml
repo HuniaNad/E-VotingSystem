@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51FDB98B-8292-9607-68A7-2143B5A9F3A2" name="electedGroups">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<ordsAlias>electv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_ID" id="437EAB49-237B-658D-27E7-25D7597C0173">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86456228-8734-F49B-F822-EBDE253E0187" referredColumn="B1A8C437-9ADA-689F-71AE-33736562E590"/>
+</associations>
+</Column>
+<Column name="group_ID" id="F2F83422-6F97-8A6F-CB65-36DF3289960A">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="998AFBB3-7978-BA38-3998-E2E99880D7C7" referredColumn="AB9B693B-862E-0FA9-AE43-F74FA66A5F25"/>
+</associations>
+</Column>
+<Column name="voter_ID" id="4BE24281-6F05-4A7F-65EC-3C6C27A9527C">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-25 15:46:44 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86456228-8734-F49B-F822-EBDE253E0187" referredColumn="1E8CDF2D-FF57-28DA-1BE3-C75B551B6065"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEC1EB97-1F5E-545A-A8B6-164140054964" name="electv1_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="437EAB49-237B-658D-27E7-25D7597C0173"/>
+<colUsage columnID="F2F83422-6F97-8A6F-CB65-36DF3289960A"/>
+<colUsage columnID="4BE24281-6F05-4A7F-65EC-3C6C27A9527C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A51B5523-36A6-2728-767A-E7DFB4EA4678" name="electv1_Voter_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>73011409-9684-83F1-C37B-BB118A00EE7B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="437EAB49-237B-658D-27E7-25D7597C0173"/>
+<colUsage columnID="4BE24281-6F05-4A7F-65EC-3C6C27A9527C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29870881-2920-F93E-B30F-0B1014A81E1C" name="electv1_Group_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>73011409-9684-83F1-C37B-BB118A00EE7B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2F83422-6F97-8A6F-CB65-36DF3289960A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

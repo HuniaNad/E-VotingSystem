@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBC34301-5B1E-A198-1947-2D8E342E5E9C" name="Person">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>6B624AF6-10F6-72DB-A5B8-A5713102C5AF</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_ID" id="F80804A9-27A6-967F-2552-A585C7258508">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>03B7D766-E22B-3503-BAD8-6B917AFAC5A9</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnic" id="9D104226-69F9-161A-705D-EDB20B787163">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>29330820-9909-E631-118A-C8C6E6382698</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="age" id="A500D363-A6DC-E9F3-36DA-024A64ED79A2">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>08CB9455-8152-6EF4-D295-919AD5450826</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="98C07FD6-C1EB-C43F-19C8-DB7735C3AF15">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>CB7BE97A-8133-1F3F-A34D-72BB389E05AE</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="ED7EB645-7055-05D3-415B-63400C6B1BC2">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>270F11D6-4198-3296-6209-6C7A0B9A3212</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="32E3913E-F07D-825E-FF2B-79CAD977D1AC">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>313CE3F8-D498-FC4D-9799-5F4DC24EDB46</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CE7E78D0-B87B-35C1-6A0C-4B85479A535E">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>6CB0A01F-4246-C7F6-6989-260D06A8194C</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="7B457656-33BB-92C7-C61C-4FEC3F1A02DF">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>0C3D94B7-2DD6-1D52-0005-53F4BF62ABF1</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_TYPE" id="918F7D82-1DFD-019F-A1B3-E8E411F305D6">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<constraintName>CH_INH_User</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<listOfValues>
+<valueDef value="Candidate" description="entity Candidate"/>
+<valueDef value="Group_Admin" description="entity Group Admin"/>
+<valueDef value="Moderator" description="entity Moderator"/>
+<valueDef value="User" description="entity User"/>
+<valueDef value="Voter" description="entity Voter"/>
+<valueDef value="user" description="entity Person"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="abtus_ID" id="B545A9F6-A2A7-F6CA-842F-3734D67F8E63">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A72B25CD-F28B-A75D-3D35-368597BA4414" referredColumn="DCFF9DB2-9FD3-E713-244C-C197E2E786F4"/>
+</associations>
+</Column>
+<Column name="UTYPE_ID" id="C439175E-CBE4-19D1-8516-F1C6BF588520">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-20 22:41:16 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="C0AF806B-A443-662E-966F-0388702BBF5C">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-25 16:00:23 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7679A1B2-25CF-65B5-3AD2-12AE0E3F6472" name="User_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>A2236B11-C447-50FA-4BE8-F67FC92AF048</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F80804A9-27A6-967F-2552-A585C7258508"/>
+<colUsage columnID="C439175E-CBE4-19D1-8516-F1C6BF588520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="809551FD-E554-A009-F43D-662E111C9E9F" name="User_About_Us_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>EBACFE19-D6D2-D0F8-D2BD-01DF45CC8BEC</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B545A9F6-A2A7-F6CA-842F-3734D67F8E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15F2F76B-3EFA-88DD-40EE-9E615DAE692C" name="Organizations">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>0C5D28BB-DC1F-ACA7-CA89-FB4B9EF74B78</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<ordsAlias>organization</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Election_cID" id="8F67D335-4C9D-C0FC-294F-762E4FB16569">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>48E296BF-0F81-6BA5-736E-68F240C32223</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8240894B-A2AC-5B6B-E7C2-382F505E15B1" referredColumn="4DED5CF5-88DE-9A1F-E8E2-3800B8C6CC72"/>
+</associations>
+</Column>
+<Column name="organization_name" id="0DD9140A-A6D6-2E09-0054-E994B42065A8">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>8B345CCB-0E6D-6B14-5F79-B8B1131FB7D0</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organization_type" id="A721C2E4-9E7B-8B10-47C5-BF62778FE706">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>ACD2FA33-A1FB-58C6-6FBE-1800C6DCA6C5</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organization_ID" id="191718AF-984D-8799-B1CF-41D2521B0427">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>B2263C09-4DE3-B37C-E6C4-818C85F18D76</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97E79DD7-6560-F022-5066-BEDABBC86CCF" name="Organization_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>0CE651C2-2D93-0402-ECAC-1387CFE948B5</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F67D335-4C9D-C0FC-294F-762E4FB16569"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87774AF0-8A41-F0BE-14AE-4A5A7A701B22" name="Organization_PKv1">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>7006E145-F661-B71E-72DC-2EA2257A0145</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="191718AF-984D-8799-B1CF-41D2521B0427"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90101B47-1BE8-067C-3821-E99AFF2898BE" name="Organization_Category_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>D87888E0-1DF7-D302-0AE4-D39E3E2BA1C3</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F67D335-4C9D-C0FC-294F-762E4FB16569"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

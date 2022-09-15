@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B9FE5CF-615D-2DA8-F930-F0379E59DBC3" name="Election">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:35:43 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="category_ID" id="7DAD1D98-389D-2CD7-B5AE-6F4AABAE2847">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:02:30 UTC</createdTime>
+<generatorID>DAAE1720-A08E-5D07-CE87-0D9E8018424A</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<referedAttribute>48E296BF-0F81-6BA5-736E-68F240C32223</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="election_ID" id="8042BB68-94EA-7ED7-6897-7ACF88CDBAEC">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:04:31 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="election_name" id="375806E0-19C3-6309-96C4-438E6B954EB7">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:04:53 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="election_description" id="A6A65B4D-B056-8FE9-59E9-9062312E0513">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:05:39 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="startDate" id="0C74D181-0BE3-9551-612B-A44A4E44C68E">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:06:00 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endDate" id="FCDA7CCA-EC74-5F2A-CB49-B3C89C1973F4">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 16:38:58 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="level" id="202818E8-6290-DFFD-C42D-34196D9B0042">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:06:16 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="privacy" id="C81FBD90-618B-3982-3136-46DE3CE6D722">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:06:32 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="31E215A7-1168-DBC2-55B6-8F0627632F0F">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:06:51 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="5FE8CDA7-8572-0C92-6CA4-83FC9009134E">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:07:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_ID" id="BBB0DF47-69E4-0271-4E3C-A5EAE4CAD59F">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-27 04:37:10 UTC</createdTime>
+<generatorID>45F7509D-32FA-94B8-0521-E36D2FF7600D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<referedAttribute>03B7D766-E22B-3503-BAD8-6B917AFAC5A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resultdate" id="77CDAF2E-54A0-3BAF-A16E-5A2C24A8C892">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-07-07 11:43:23 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B238EBF-1F83-6D5C-F79C-F128E0C4E2EA" name="Election PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:04:51 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8042BB68-94EA-7ED7-6897-7ACF88CDBAEC</attributeRef>
+<attributeRef>7DAD1D98-389D-2CD7-B5AE-6F4AABAE2847</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

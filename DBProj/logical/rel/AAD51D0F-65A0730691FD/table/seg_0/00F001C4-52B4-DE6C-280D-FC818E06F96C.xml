@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00F001C4-52B4-DE6C-280D-FC818E06F96C" name="Custom">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>E0F5CE1F-0ECF-2D47-8F83-CA7BD92CAA18</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Election_cID" id="0E93F985-2245-26C2-9414-78BABBC6C15B">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>48E296BF-0F81-6BA5-736E-68F240C32223</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="809E9AB9-B6F0-7D81-DAAD-0044BD60A1F1" referredColumn="4DED5CF5-88DE-9A1F-E8E2-3800B8C6CC72"/>
+</associations>
+</Column>
+<Column name="custom_ID" id="7D0C89BE-F7A8-F074-74BD-1CEECC1FE79E">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>87BE1C59-44AA-04F9-47A1-4898CE55D8CC</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4576D897-4602-75E9-CB5D-42ED222E30EC" name="Custom_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>0CE651C2-2D93-0402-ECAC-1387CFE948B5</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E93F985-2245-26C2-9414-78BABBC6C15B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60CE563C-C47A-086B-9366-1D664ED1E42C" name="Custom_PKv1">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>1F4B01AA-69A0-41DC-36E2-50BD3C72F96E</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D0C89BE-F7A8-F074-74BD-1CEECC1FE79E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E074EE5-9BE5-C58B-D522-4DADBC08C9A2" name="Custom_Category_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>9FAE4744-F4A0-56F7-CA36-69274082D62B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E93F985-2245-26C2-9414-78BABBC6C15B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

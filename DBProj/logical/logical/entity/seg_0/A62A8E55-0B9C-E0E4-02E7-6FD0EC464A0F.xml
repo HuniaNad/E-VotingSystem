@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A62A8E55-0B9C-E0E4-02E7-6FD0EC464A0F" name="Party_Group">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:41:37 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="group_ID" id="289D83A7-9EE4-C001-1734-9B8D0AE3A95D">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:07:59 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="group_name" id="476C1905-A75D-6871-30A3-D3244327F8E9">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:08:36 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="group_description" id="07E2C74E-4335-D5F2-8AAB-257998E73DC5">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:09:05 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="admin_ID" id="A45813A7-6ACD-B47D-077E-AD2FAB98E6CD">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-07-06 14:57:35 UTC</createdTime>
+<generatorID>402E8410-6061-A488-0EAB-5BD7FC8E3A42</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<referedAttribute>908DDA8D-FBCF-8A2F-23DD-002E8C69A06E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="605A32A2-0C31-1389-36EE-2791F40F1113" name="Group PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 05:08:30 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>289D83A7-9EE4-C001-1734-9B8D0AE3A95D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

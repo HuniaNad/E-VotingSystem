@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79B9F92A-FA36-E538-6990-E79BBB8BE0C7" name="Election">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>7B9FE5CF-615D-2DA8-F930-F0379E59DBC3</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Election_cID" id="6EF3AE52-A97F-F474-91B3-2E4D992CB268">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>7DAD1D98-389D-2CD7-B5AE-6F4AABAE2847</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E60FE2D4-AE04-70C2-FB7C-10760877041A" referredColumn="4DED5CF5-88DE-9A1F-E8E2-3800B8C6CC72"/>
+</associations>
+</Column>
+<Column name="election_ID" id="D7DD6743-C882-EEBF-061E-3EB50B9E6429">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>8042BB68-94EA-7ED7-6897-7ACF88CDBAEC</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="election_name" id="24364EBC-2CCC-E9F6-5B18-EC1381D818BE">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>375806E0-19C3-6309-96C4-438E6B954EB7</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="election_description" id="C1D904D0-E061-C783-2BD2-E9D05074FDB3">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>A6A65B4D-B056-8FE9-59E9-9062312E0513</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startDate" id="DBED986A-4351-33E2-1DA7-5B7D4F55E72E">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>0C74D181-0BE3-9551-612B-A44A4E44C68E</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endDate" id="BD09F347-5366-6349-6574-6AED9D472957">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>FCDA7CCA-EC74-5F2A-CB49-B3C89C1973F4</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="privacy" id="70075AD0-99C5-1C41-A7F9-BE40D1F1929C">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>C81FBD90-618B-3982-3136-46DE3CE6D722</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="D1EF29DD-CD77-3112-B7AA-5E8ECAB9E7C9">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>31E215A7-1168-DBC2-55B6-8F0627632F0F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="47A92450-37A7-9C39-11E1-E3AC8DA88467">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>5FE8CDA7-8572-0C92-6CA4-83FC9009134E</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Moderator_uID" id="0F8A13F6-BFDF-1A5D-DA95-B8EEB2048190">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>BBB0DF47-69E4-0271-4E3C-A5EAE4CAD59F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDAD6430-48BA-C249-F127-B65975B6B70C" referredColumn="8148C4E8-C360-39A1-D045-6B1A03195450"/>
+</associations>
+</Column>
+<Column name="RESULTDATE" id="9E31E9DF-157E-8020-D612-323BCBE1A1A8">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-28 10:16:36 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B550F053-3208-A3C4-CB05-CFE0977E54CF" name="Election_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>5B238EBF-1F83-6D5C-F79C-F128E0C4E2EA</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7DD6743-C882-EEBF-061E-3EB50B9E6429"/>
+<colUsage columnID="6EF3AE52-A97F-F474-91B3-2E4D992CB268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EA42758-19D8-7717-E8CB-36FB270A3836" name="Election_Moderator_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>45F7509D-32FA-94B8-0521-E36D2FF7600D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F8A13F6-BFDF-1A5D-DA95-B8EEB2048190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D226277A-B4CC-A4E1-D50C-A5037C6E5C70" name="Election_Category_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>DAAE1720-A08E-5D07-CE87-0D9E8018424A</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF3AE52-A97F-F474-91B3-2E4D992CB268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

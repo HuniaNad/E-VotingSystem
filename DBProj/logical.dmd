@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logical" id="5955C4B4-589F-59BE-D472-9BC33F4089CA" version="3.5">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:32:24 UTC</createdTime>
+<ownerDesignName>DBProjERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5955C4B4-589F-59BE-D472-9BC33F4089CA</designId>
+</OSDM_Design>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B9DDF80-C2EF-9011-19DF-651982A7D918" containerWithKeyObject="3EE42F9B-329F-42F5-19D8-12AA51EAC89D" localFKIndex="35A096AC-1D9F-36BA-D133-C038B8FF5DBD" name="groupApplicants_Election_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>F14A5EB4-293B-A98E-DEA3-07AF30C4CA1F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<referredTableLongName>Election</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>79B9F92A-FA36-E538-6990-E79BBB8BE0C7</referredTableID>
+<keyObject>B550F053-3208-A3C4-CB05-CFE0977E54CF</keyObject>
+<referredKeyID>B550F053-3208-A3C4-CB05-CFE0977E54CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>election_ID,Election_cID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC773309-E24F-0702-3F09-FD823C5A3B63" containerWithKeyObject="E6944B92-880C-4FBD-815B-83563EC26417" localFKIndex="2B912CAD-AB45-9BB4-C451-E53BB6B4202B" name="Government_Category_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>FCF240AD-2494-CF27-F3EE-E0E57B37F64C</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<referredTableLongName>E_Category</referredTableLongName>
+<arc>8A8955A1-FDD5-5CF3-958F-07358AD4FADF</arc>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>1FCB95D7-8B45-9CFB-120B-ED15D28378ED</referredTableID>
+<keyObject>8C602A76-08D9-0F9F-3EB5-003A5641B6C0</keyObject>
+<referredKeyID>8C602A76-08D9-0F9F-3EB5-003A5641B6C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>category_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Government</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

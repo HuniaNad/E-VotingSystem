@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6944B92-880C-4FBD-815B-83563EC26417" name="Government">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>FE34F43C-85FB-8E0E-DE04-CE41E5E5D773</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Election_cID" id="877CF3D5-E1DF-B5AE-868C-F8C31A72E363">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>48E296BF-0F81-6BA5-736E-68F240C32223</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC773309-E24F-0702-3F09-FD823C5A3B63" referredColumn="4DED5CF5-88DE-9A1F-E8E2-3800B8C6CC72"/>
+</associations>
+</Column>
+<Column name="party_name" id="E4EB2BC4-BCA2-C7DA-01AE-EFFA51AD7A65">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>2C7806C3-A694-FDC7-D29D-5B7395828591</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="party_status" id="377E8F79-3808-1689-9398-3ABA1B3CDEDF">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>50FF6177-1E2D-488E-2102-95A07F1F9B49</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="party_ID" id="35782371-ED1F-2C1F-AEBF-5C5E21623C57">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>D33DC009-246B-2FE6-3904-CF3486E7FD67</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03F2A23F-2208-7045-0502-3AD4B99F20C6" name="Government_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>0CE651C2-2D93-0402-ECAC-1387CFE948B5</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="877CF3D5-E1DF-B5AE-868C-F8C31A72E363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E78DF7C5-2A77-B3C6-6944-76FE5A891ACA" name="Government_PKv1">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>70090554-58B6-E457-7D78-EBF7A56AAEB1</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35782371-ED1F-2C1F-AEBF-5C5E21623C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B912CAD-AB45-9BB4-C451-E53BB6B4202B" name="Government_Category_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>FCF240AD-2494-CF27-F3EE-E0E57B37F64C</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="877CF3D5-E1DF-B5AE-868C-F8C31A72E363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

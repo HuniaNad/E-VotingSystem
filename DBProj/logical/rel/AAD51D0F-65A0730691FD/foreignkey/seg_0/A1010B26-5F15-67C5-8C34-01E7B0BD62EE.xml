@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1010B26-5F15-67C5-8C34-01E7B0BD62EE" containerWithKeyObject="2FAAB90F-6DC5-7AF3-A168-FBB35B230E1C" localFKIndex="C5B04735-C77C-B04B-0A18-488C33FCA08E" name="Moderator_User_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>53377DFF-9D8C-9A7E-C811-CBE8B4359B22</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<referredTableLongName>Person</referredTableLongName>
+<arc>86CC0A7F-7461-FD86-D9C6-AEB47B6C21B0</arc>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>CBC34301-5B1E-A198-1947-2D8E342E5E9C</referredTableID>
+<keyObject>7679A1B2-25CF-65B5-3AD2-12AE0E3F6472</keyObject>
+<referredKeyID>7679A1B2-25CF-65B5-3AD2-12AE0E3F6472</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>user_ID,UTYPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Moderator</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

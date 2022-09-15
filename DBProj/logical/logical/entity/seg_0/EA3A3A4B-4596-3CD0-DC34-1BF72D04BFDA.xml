@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA3A3A4B-4596-3CD0-DC34-1BF72D04BFDA" name="Feedbacks">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:35:23 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="feedback_ID" id="C316961F-9CE4-236C-3024-AB62EBB704F1">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 04:54:58 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="feedback_description" id="DA3E3965-E8B0-8DF0-03AA-2A8484A5A91D">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 04:55:14 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="88A2D16D-529D-5478-2ED0-76E16FC213C9">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 04:55:40 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_ID" id="6A65CFC5-BCFF-0373-BDBB-D1B33EFB0FD4">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-27 04:37:10 UTC</createdTime>
+<generatorID>C58A4B67-6316-13A4-B62E-0F39F8833664</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<referedAttribute>03B7D766-E22B-3503-BAD8-6B917AFAC5A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C644FEB-653F-6A5D-3A89-1E67C18D1C2E" name="Feedback PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-25 04:55:11 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C316961F-9CE4-236C-3024-AB62EBB704F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76E3B8F0-37B3-7742-1F5C-3CB739FFE4B0" name="addedGroupRecord">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<ordsAlias>addsv2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Moderator_uID" id="22939B11-36DF-5811-119D-4503F19A1FB0">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07CF0A5D-4536-9055-0DED-03D8C55AAA99" referredColumn="8148C4E8-C360-39A1-D045-6B1A03195450"/>
+</associations>
+</Column>
+<Column name="group_ID" id="151CCCCF-2729-18B7-1660-411A2123663E">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA8BA384-D1C2-F5B4-4E0E-98268134358A" referredColumn="AB9B693B-862E-0FA9-AE43-F74FA66A5F25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D99BDC2-7E56-4A39-34F6-198CC30FCC6A" name="addsv2_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22939B11-36DF-5811-119D-4503F19A1FB0"/>
+<colUsage columnID="151CCCCF-2729-18B7-1660-411A2123663E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08AFF648-0410-9208-C8B7-215B90CDA46F" name="addsv2_Moderator_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>5CE92639-9547-B53D-EA6D-866EBBB04F7B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22939B11-36DF-5811-119D-4503F19A1FB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA9E2FEA-65CA-3509-3304-2E7A2F3E594A" name="addsv2_Group_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>5CE92639-9547-B53D-EA6D-866EBBB04F7B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="151CCCCF-2729-18B7-1660-411A2123663E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

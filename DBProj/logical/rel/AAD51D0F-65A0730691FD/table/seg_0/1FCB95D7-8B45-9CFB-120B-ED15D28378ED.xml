@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FCB95D7-8B45-9CFB-120B-ED15D28378ED" name="E_Category">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>3E215153-4BEA-8E2B-6E2C-1910E768906D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<ordsAlias>category</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="category_ID" id="4DED5CF5-88DE-9A1F-E8E2-3800B8C6CC72">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>48E296BF-0F81-6BA5-736E-68F240C32223</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Category_TYPE" id="A2485AC4-8132-DC28-492D-AC8C2A82D49B">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<constraintName>CH_INH_Category</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<listOfValues>
+<valueDef value="Category" description="entity Category"/>
+<valueDef value="Custom" description="entity Custom"/>
+<valueDef value="Government" description="entity Government"/>
+<valueDef value="Organization" description="entity Organization"/>
+<valueDef value="Referendum" description="entity Referendum"/>
+</listOfValues>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C602A76-08D9-0F9F-3EB5-003A5641B6C0" name="Category_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>0CE651C2-2D93-0402-ECAC-1387CFE948B5</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DED5CF5-88DE-9A1F-E8E2-3800B8C6CC72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

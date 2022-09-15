@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2EC35F1-D11A-23D4-AA30-50B25112D9FC" name="Group_Admin">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>228F01AC-0161-A319-F715-EBEB569B3279</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_ID" id="97C985C1-B44B-EF0F-C4DB-956A4BF0C6C9">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>03B7D766-E22B-3503-BAD8-6B917AFAC5A9</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CE76B43-B42F-AA70-B379-A12B587A9F43" referredColumn="F80804A9-27A6-967F-2552-A585C7258508"/>
+</associations>
+</Column>
+<Column name="admin_ID" id="14FEB1AF-FF6F-2888-06AF-130354D62168">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 18:15:01 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UTYPE_ID" id="15A8F076-4299-1068-0B6F-1C1F94AFD7E5">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-20 22:41:16 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CE76B43-B42F-AA70-B379-A12B587A9F43" referredColumn="C439175E-CBE4-19D1-8516-F1C6BF588520"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96A08B03-1C36-28F3-57C1-CD1CF919201D" name="Group_Admin_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>A2236B11-C447-50FA-4BE8-F67FC92AF048</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97C985C1-B44B-EF0F-C4DB-956A4BF0C6C9"/>
+<colUsage columnID="14FEB1AF-FF6F-2888-06AF-130354D62168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06D56BF2-898B-011B-8EE3-0EAB752FC1EE" name="Group_Admin_User_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>711F7EA6-73B6-44BC-4861-E7D2A2455C1B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97C985C1-B44B-EF0F-C4DB-956A4BF0C6C9"/>
+<colUsage columnID="15A8F076-4299-1068-0B6F-1C1F94AFD7E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

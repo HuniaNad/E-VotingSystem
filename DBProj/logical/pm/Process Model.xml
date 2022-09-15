@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="023A8EBC-04FA-1251-CB08-FF0482788288">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:32:24 UTC</createdTime>
+<ownerDesignName>DBProjERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

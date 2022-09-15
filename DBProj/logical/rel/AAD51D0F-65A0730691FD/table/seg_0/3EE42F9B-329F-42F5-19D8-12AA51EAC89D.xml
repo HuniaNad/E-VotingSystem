@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EE42F9B-329F-42F5-19D8-12AA51EAC89D" name="groupApplicants">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="group_ID" id="984E32D9-FB1C-BD50-AACA-B6AF7804E564">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DBE9220-AB6A-B540-A337-5340F793CA4D" referredColumn="AB9B693B-862E-0FA9-AE43-F74FA66A5F25"/>
+</associations>
+</Column>
+<Column name="election_ID" id="2F82D64E-DB5B-10F9-A63B-BD588015A905">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B9DDF80-C2EF-9011-19DF-651982A7D918" referredColumn="D7DD6743-C882-EEBF-061E-3EB50B9E6429"/>
+</associations>
+</Column>
+<Column name="Election_cID" id="49452E1A-BE61-1388-89AB-050EDF3D31E3">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B9DDF80-C2EF-9011-19DF-651982A7D918" referredColumn="6EF3AE52-A97F-F474-91B3-2E4D992CB268"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="685225B5-539B-56A1-02F9-E0774B6BEF61" name="groupApplicants_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="984E32D9-FB1C-BD50-AACA-B6AF7804E564"/>
+<colUsage columnID="2F82D64E-DB5B-10F9-A63B-BD588015A905"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBB4AC60-B3D2-0643-C3E1-35F6C9B06086" name="groupApplicants_Group_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>F14A5EB4-293B-A98E-DEA3-07AF30C4CA1F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="984E32D9-FB1C-BD50-AACA-B6AF7804E564"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35A096AC-1D9F-36BA-D133-C038B8FF5DBD" name="groupApplicants_Election_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>F14A5EB4-293B-A98E-DEA3-07AF30C4CA1F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F82D64E-DB5B-10F9-A63B-BD588015A905"/>
+<colUsage columnID="49452E1A-BE61-1388-89AB-050EDF3D31E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

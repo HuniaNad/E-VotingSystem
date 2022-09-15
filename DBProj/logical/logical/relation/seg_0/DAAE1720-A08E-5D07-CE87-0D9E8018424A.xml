@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hasv2" directorySegmentName="seg_0" id="DAAE1720-A08E-5D07-CE87-0D9E8018424A">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:59:12 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="AAD51D0F-9220-ED90-7C1A-65A0730691FD" value="true"/>
+</engineerTo>
+<targetPk>0CE651C2-2D93-0402-ECAC-1387CFE948B5</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7B9FE5CF-615D-2DA8-F930-F0379E59DBC3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3E215153-4BEA-8E2B-6E2C-1910E768906D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

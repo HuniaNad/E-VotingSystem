@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACAC5428-1889-FFBE-6CA2-6EE6EF4D73C6" name="registrations">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<ordsAlias>registers</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Voter_uID" id="FEBE2AB3-FBCE-F474-4FC5-52EB64940003">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A91A97A6-C0F0-8DC8-62E0-613280A0A98D" referredColumn="B1A8C437-9ADA-689F-71AE-33736562E590"/>
+</associations>
+</Column>
+<Column name="election_ID" id="57C821A1-7E59-5B2A-0BF8-82FA46339359">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82E61798-5805-D4C4-4100-E6F891E2AB47" referredColumn="D7DD6743-C882-EEBF-061E-3EB50B9E6429"/>
+</associations>
+</Column>
+<Column name="Election_cID" id="347FB76F-2531-19EC-C267-883A3EEFDB1C">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82E61798-5805-D4C4-4100-E6F891E2AB47" referredColumn="6EF3AE52-A97F-F474-91B3-2E4D992CB268"/>
+</associations>
+</Column>
+<Column name="voter_ID" id="03C33646-06FC-BACE-3AE2-3614665E1171">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-25 15:46:44 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A91A97A6-C0F0-8DC8-62E0-613280A0A98D" referredColumn="1E8CDF2D-FF57-28DA-1BE3-C75B551B6065"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05411542-C9A1-D411-E700-CF9429747402" name="registers_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEBE2AB3-FBCE-F474-4FC5-52EB64940003"/>
+<colUsage columnID="57C821A1-7E59-5B2A-0BF8-82FA46339359"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="929FCA87-4DA0-79FD-F7B6-133B9BF426D6" name="registers_Voter_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>032F3179-024A-8704-3676-210209747E83</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEBE2AB3-FBCE-F474-4FC5-52EB64940003"/>
+<colUsage columnID="03C33646-06FC-BACE-3AE2-3614665E1171"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29482B35-A0F0-CBD1-129D-A2D665A554C9" name="registers_Election_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>032F3179-024A-8704-3676-210209747E83</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57C821A1-7E59-5B2A-0BF8-82FA46339359"/>
+<colUsage columnID="347FB76F-2531-19EC-C267-883A3EEFDB1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

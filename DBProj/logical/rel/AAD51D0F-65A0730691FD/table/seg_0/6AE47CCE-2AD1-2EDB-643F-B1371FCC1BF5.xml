@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AE47CCE-2AD1-2EDB-643F-B1371FCC1BF5" name="candidateApplicants">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Candidate_uID" id="6B8D4259-F46D-4DCE-0B21-1911A37DBCC1">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC13DE53-99BA-45FB-4FB8-AEB1B8E24903" referredColumn="5DF1E86F-A91A-FE07-77FD-46DE9A723D1C"/>
+</associations>
+</Column>
+<Column name="election_ID" id="D802F2B8-746F-3362-DDD2-6C6CD589A4F0">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21E2D797-BB5A-BBBB-866A-F0959C42CC78" referredColumn="D7DD6743-C882-EEBF-061E-3EB50B9E6429"/>
+</associations>
+</Column>
+<Column name="Election_cID" id="55424D1A-758B-2EF5-90E5-79165F77E7FE">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21E2D797-BB5A-BBBB-866A-F0959C42CC78" referredColumn="6EF3AE52-A97F-F474-91B3-2E4D992CB268"/>
+</associations>
+</Column>
+<Column name="candidate_ID" id="2AE5807E-49C7-9CF4-E416-173713B3C373">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-28 16:36:07 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC13DE53-99BA-45FB-4FB8-AEB1B8E24903" referredColumn="7EEF9F14-3B07-DAB2-BE37-37813A3AEC94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0BFC6C7-740F-202B-F068-CB42811FCD7C" name="candidateApplicants_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B8D4259-F46D-4DCE-0B21-1911A37DBCC1"/>
+<colUsage columnID="D802F2B8-746F-3362-DDD2-6C6CD589A4F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="515ADA50-4570-4751-F960-3D277C567DB2" name="cApplicants_Candidate_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>12BDC3F4-8727-FE7A-0272-6C8759883E86</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B8D4259-F46D-4DCE-0B21-1911A37DBCC1"/>
+<colUsage columnID="2AE5807E-49C7-9CF4-E416-173713B3C373"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC49F88C-0EFD-97F7-EAF6-2DC081DC0C98" name="cApplicants_Election_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>12BDC3F4-8727-FE7A-0272-6C8759883E86</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D802F2B8-746F-3362-DDD2-6C6CD589A4F0"/>
+<colUsage columnID="55424D1A-758B-2EF5-90E5-79165F77E7FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

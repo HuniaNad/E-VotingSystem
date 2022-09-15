@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="420C1B11-909F-9DAF-5C44-4B4A5D86E904" name="Feedbacks">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>EA3A3A4B-4596-3CD0-DC34-1BF72D04BFDA</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="feedback_ID" id="EE549779-55CB-79B6-DA91-0AA053E5261E">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>C316961F-9CE4-236C-3024-AB62EBB704F1</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="feedback_description" id="38BCAE8F-C733-88E5-7C6A-0FAE68901890">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>DA3E3965-E8B0-8DF0-03AA-2A8484A5A91D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="D4EF4AB5-93A8-11F2-629E-51977C3D301B">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>88A2D16D-529D-5478-2ED0-76E16FC213C9</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_ID" id="0812C002-648B-6598-ECD7-775E233FF3E4">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>6A65CFC5-BCFF-0373-BDBB-D1B33EFB0FD4</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBA6A546-E539-1D87-827C-C209C39339CC" referredColumn="F80804A9-27A6-967F-2552-A585C7258508"/>
+</associations>
+</Column>
+<Column name="UTYPE_ID" id="9155AE4E-9969-7FD3-9ABF-685D3AC381C6">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-20 22:41:16 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBA6A546-E539-1D87-827C-C209C39339CC" referredColumn="C439175E-CBE4-19D1-8516-F1C6BF588520"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C3FB10B-4D32-FC09-FA7D-AE34F0143E96" name="Feedback_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>2C644FEB-653F-6A5D-3A89-1E67C18D1C2E</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE549779-55CB-79B6-DA91-0AA053E5261E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="010B5459-324B-17B3-F331-4675ACCCAC96" name="Feedback_User_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>C58A4B67-6316-13A4-B62E-0F39F8833664</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0812C002-648B-6598-ECD7-775E233FF3E4"/>
+<colUsage columnID="9155AE4E-9969-7FD3-9ABF-685D3AC381C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

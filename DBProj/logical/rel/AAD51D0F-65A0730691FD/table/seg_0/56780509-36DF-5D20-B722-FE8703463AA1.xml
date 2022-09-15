@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56780509-36DF-5D20-B722-FE8703463AA1" name="Party_Group">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>A62A8E55-0B9C-E0E4-02E7-6FD0EC464A0F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="group_ID" id="AB9B693B-862E-0FA9-AE43-F74FA66A5F25">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>289D83A7-9EE4-C001-1734-9B8D0AE3A95D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="group_name" id="A7B2AA01-4923-B584-9DBF-7E6C6EB70973">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>476C1905-A75D-6871-30A3-D3244327F8E9</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="group_description" id="D0697251-737D-BDAD-CCEC-89C9ED345F85">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>07E2C74E-4335-D5F2-8AAB-257998E73DC5</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_uID" id="135975A0-3583-2C90-BBCC-C29DB16178E4">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>B441EF79-99FF-CB89-12D0-91FCF7EB9283</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72FAB49F-0CBE-522E-78C2-930FD7E770E7" referredColumn="97C985C1-B44B-EF0F-C4DB-956A4BF0C6C9"/>
+</associations>
+</Column>
+<Column name="admin_ID" id="54F4992F-F117-C1D0-3170-80DBA3717B18">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-25 15:56:26 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72FAB49F-0CBE-522E-78C2-930FD7E770E7" referredColumn="14FEB1AF-FF6F-2888-06AF-130354D62168"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8921AB3-7842-5BB2-282D-9E1FA3053F43" name="Group_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>605A32A2-0C31-1389-36EE-2791F40F1113</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB9B693B-862E-0FA9-AE43-F74FA66A5F25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="416C5C45-0327-EC76-5110-5CC0924A72C3" name="Group__IDX">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>402E8410-6061-A488-0EAB-5BD7FC8E3A42</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="135975A0-3583-2C90-BBCC-C29DB16178E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="845B3870-4810-D4CD-F60E-3BAD0D5F40D2" name="Group_Group_Admin_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>402E8410-6061-A488-0EAB-5BD7FC8E3A42</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="135975A0-3583-2C90-BBCC-C29DB16178E4"/>
+<colUsage columnID="54F4992F-F117-C1D0-3170-80DBA3717B18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

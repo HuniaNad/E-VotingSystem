@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FAAB90F-6DC5-7AF3-A168-FBB35B230E1C" name="Moderator">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:48:46 UTC</createdTime>
+<generatorID>293F9534-8B24-3458-98A7-514CCE5C4831</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_ID" id="8148C4E8-C360-39A1-D045-6B1A03195450">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>03B7D766-E22B-3503-BAD8-6B917AFAC5A9</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1010B26-5F15-67C5-8C34-01E7B0BD62EE" referredColumn="F80804A9-27A6-967F-2552-A585C7258508"/>
+</associations>
+</Column>
+<Column name="UTYPE_ID" id="8E67C2C9-693A-5522-8510-F890FFA2206D">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-20 22:41:16 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1010B26-5F15-67C5-8C34-01E7B0BD62EE" referredColumn="C439175E-CBE4-19D1-8516-F1C6BF588520"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="731C4B7C-B88B-79B0-AAD1-2916BB988AA0" name="Moderator_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>A2236B11-C447-50FA-4BE8-F67FC92AF048</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8148C4E8-C360-39A1-D045-6B1A03195450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5B04735-C77C-B04B-0A18-488C33FCA08E" name="Moderator_User_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>53377DFF-9D8C-9A7E-C811-CBE8B4359B22</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8148C4E8-C360-39A1-D045-6B1A03195450"/>
+<colUsage columnID="8E67C2C9-693A-5522-8510-F890FFA2206D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

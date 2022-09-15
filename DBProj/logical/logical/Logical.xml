@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DB1FC3E4-3773-D001-6114-FC9B984E94CE" mainViewID="E43C5E78-4D40-E3F6-EC1D-13701ECC7BDA">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-04-21 04:32:24 UTC</createdTime>
+<ownerDesignName>DBProjERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

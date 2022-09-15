@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8899FD06-A8F6-2887-B85E-4A0CD429B920" name="addedCandidateRecord">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<ordsAlias>addsv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Moderator_uID" id="A4380299-5367-4E90-48EB-91311D18F95C">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51AF37A9-949E-656D-73CA-50B7EC75BCAA" referredColumn="8148C4E8-C360-39A1-D045-6B1A03195450"/>
+</associations>
+</Column>
+<Column name="Candidate_uID" id="E2B919C4-0B31-7C5F-B50D-000D927FC6CC">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92929724-3386-0F2D-94B7-F70A8359A3DA" referredColumn="5DF1E86F-A91A-FE07-77FD-46DE9A723D1C"/>
+</associations>
+</Column>
+<Column name="candidate_ID" id="F7062574-A9CE-9296-66B0-AE27BB59797E">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-28 16:36:07 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92929724-3386-0F2D-94B7-F70A8359A3DA" referredColumn="7EEF9F14-3B07-DAB2-BE37-37813A3AEC94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B1ADC6C-628A-89AE-DFCF-36E99C0DF9D3" name="addsv1_PK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4380299-5367-4E90-48EB-91311D18F95C"/>
+<colUsage columnID="E2B919C4-0B31-7C5F-B50D-000D927FC6CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABA26E9D-5278-1C21-94E4-76FF3F82BD61" name="addsv1_Moderator_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>FC1DDF9C-B46A-19E9-0AE2-41B566332FBD</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4380299-5367-4E90-48EB-91311D18F95C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB33BD7F-8072-25BD-B170-5FE7C57343EA" name="addsv1_Candidate_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>FC1DDF9C-B46A-19E9-0AE2-41B566332FBD</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B919C4-0B31-7C5F-B50D-000D927FC6CC"/>
+<colUsage columnID="F7062574-A9CE-9296-66B0-AE27BB59797E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8C1BB96-85A4-BF55-5947-35FDB70734B1" containerWithKeyObject="438A36B9-25CD-5552-C953-DD9EEDBE7ECE" localFKIndex="6930B658-9F44-D2D8-B860-0820110446D8" name="Referendum_Category_FK">
+<createdBy>Hunia</createdBy>
+<createdTime>2022-06-10 17:51:03 UTC</createdTime>
+<generatorID>100DEDE4-572C-1C07-0227-E28923E3CB1A</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<referredTableLongName>E_Category</referredTableLongName>
+<arc>8A8955A1-FDD5-5CF3-958F-07358AD4FADF</arc>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>1FCB95D7-8B45-9CFB-120B-ED15D28378ED</referredTableID>
+<keyObject>8C602A76-08D9-0F9F-3EB5-003A5641B6C0</keyObject>
+<referredKeyID>8C602A76-08D9-0F9F-3EB5-003A5641B6C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>category_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Referendum</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
